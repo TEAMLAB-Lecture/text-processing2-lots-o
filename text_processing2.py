@@ -69,7 +69,7 @@ def to_camel_case(underscore_str):
             >>> tp2.to_camel_case(underscore_str3)
             "alreadyCamel"
     """
-    camelcase_str = None
+    camelcase_str =''
     splited_str=underscore_str.split('_')
     start=True
     for char in splited_str:
