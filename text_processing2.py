@@ -34,7 +34,7 @@ def digits_to_words(input_string):
     digit_string=[convertor[int(char)] for char in input_string if char.isdigit()]
 
     
-    return ' '.join(digit)
+    return ' '.join(digit_string)
 
 
 """
